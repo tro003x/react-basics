@@ -30,12 +30,19 @@ const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const links = navLinks.map(route => <li className='mr-10'><a href={route.path}>{route.name}</a></li> )
+  const links = navLinks.map(route => (
+    <li key={route.id} className='lg:mr-10 px-4'>
+      <a href={route.path} className="block w-full py-2 rounded hover:bg-blue-700 hover:text-white transition">
+        {route.name}
+      </a>
+    </li>
+  ))
     return (
-        <nav className='flex justify-between'>
+        <nav className='flex justify-between mx-8 mt-10'>
          <span className='flex' onClick={()=> setOpen(!open)}> 
           {open ? <X></X>: <Menu className='lg:hidden'></Menu>}
-          <ul className='md:hidden'>
+          <ul className= {` md:hidden absolute duration-1000 
+            ${open ? 'top-6' : '-top-40'} bg-blue-400`}>
             {
               links
             }

@@ -1,0 +1,80 @@
+{
+  "membership_plans": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "duration_months": 1,
+      "price_bdt": 200,
+      "borrow_limit": 2,
+      "renewal_discount_percent": 0,
+      "features": [
+        "Access to general books",
+        "2 books at a time",
+        "Email reminders"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "duration_months": 3,
+      "price_bdt": 500,
+      "borrow_limit": 4,
+      "renewal_discount_percent": 5,
+      "features": [
+        "Access to general and premium books",
+        "4 books at a time",
+        "Email & SMS reminders",
+        "Priority desk support"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "duration_months": 6,
+      "price_bdt": 900,
+      "borrow_limit": 6,
+      "renewal_discount_percent": 10,
+      "features": [
+        "Access to all sections including research books",
+        "6 books at a time",
+        "Free book reservation",
+        "Monthly newsletter",
+        "Priority support"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Annual Elite",
+      "duration_months": 12,
+      "price_bdt": 1600,
+      "borrow_limit": 8,
+      "renewal_discount_percent": 15,
+      "features": [
+        "Unlimited access to all collections",
+        "8 books at a time",
+        "Exclusive reading lounge access",
+        "Free event entry",
+        "1 free guest pass per month",
+        "Dedicated librarian support"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Student Saver",
+      "duration_months": 6,
+      "price_bdt": 600,
+      "borrow_limit": 5,
+      "renewal_discount_percent": 8,
+      "features": [
+        "Discounted for students with ID",
+        "Access to all study materials",
+        "Priority exam season borrowing"
+      ],
+      "status": "active"
+    }
+  ]
+}

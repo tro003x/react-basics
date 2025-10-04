@@ -1,13 +1,11 @@
-
-
 {
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "lucide": "^0.544.0",
-    "lucide-react": "^0.544.0",
-    "tailwindcss": "^4.1.13"
+    "lucide-react": "^0.544.0"
   },
   "devDependencies": {
-    "daisyui": "^5.1.25"
+    "daisyui": "^5.1.25",
+    "tailwindcss": "^4.1.14"
   }
 }
