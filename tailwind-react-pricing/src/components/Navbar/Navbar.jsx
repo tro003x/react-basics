@@ -42,7 +42,7 @@ const Navbar = () => {
          <span className='flex' onClick={()=> setOpen(!open)}> 
           {open ? <X></X>: <Menu className='lg:hidden'></Menu>}
           <ul className= {` md:hidden absolute duration-1000 
-            ${open ? 'top-6' : '-top-40'} bg-blue-400`}>
+            ${open ? 'top-6' : '-top-60'} bg-blue-400`}>
             {
               links
             }
