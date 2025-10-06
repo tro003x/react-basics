@@ -6,6 +6,7 @@ import DaisyNav from './components/DaisyNav/DaisyNav'
 import Navbar from './components/Navbar/Navbar'
 import PricingOption from './components/PricingOptions/PricingOption';
 import ResultCharts from './components/Charts/ResultCharts';
+import BookData from './components/BookData/BookData';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
       <main>
         <PricingOption />
       </main>
-      <ResultCharts></ResultCharts>
+      <ResultCharts />
+      <BookData />
  
     </>
   )
