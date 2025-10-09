@@ -1,0 +1,11 @@
+ {
+    "reservation_id": 105,
+    "member_id": 5,
+    "member_name": "Ambia",
+    "book_id": 505,
+    "book_title": "Deep Learning with Python",
+    "author": "François Chollet",
+    "reservation_date": "2025-10-02",
+    "pickup_deadline": "2025-10-09",
+    "status": "Picked Up"
+  } 

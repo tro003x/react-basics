@@ -103,4 +103,11 @@ Notes:
 2. Make edits, run and test locally
 3. Commit and open a PR
 
+---
 
+If you'd like, I can also:
+- Add a `CONTRIBUTING.md` or PR checklist
+- Convert `booksData.json` into a sample array for multi-group charts
+- Add tests or linting scripts
+
+License: MIT (or choose your preferred license)
